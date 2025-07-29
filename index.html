@@ -87,7 +87,7 @@
   </nav>
 
   <!-- Hero -->
-  <section class="text-center py-5 bg-light" id="hero">
+  <section class="text-center py-5" id="hero" style="background: #e3f0ff;">
     <div class="container">
       <div class="pic">
         <div class="d-flex flex-column align-items-center position-relative" style="margin-bottom: 40px; margin-top: 20px;">
@@ -97,10 +97,20 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" viewBox="0 0 24 24" style="margin-right: 8px;"></svg>
                 <path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41a4.92 4.92 0 0 1 1.77 1.01 4.92 4.92 0 0 1 1.01 1.77c.17.46.354 1.26.41 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43a4.92 4.92 0 0 1-1.01 1.77 4.92 4.92 0 0 1-1.77 1.01c-.46.17-1.26.354-2.43.41-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41a4.92 4.92 0 0 1-1.77-1.01 4.92 4.92 0 0 1-1.01-1.77c-.17-.46-.354-1.26-.41-2.43C2.212 15.784 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43a4.92 4.92 0 0 1 1.01-1.77 4.92 4.92 0 0 1 1.77-1.01c.46-.17 1.26-.354 2.43-.41C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.013 7.052.072 5.77.13 4.77.312 3.97.54a7.07 7.07 0 0 0-2.56 1.64A7.07 7.07 0 0 0 .54 4.97c-.228.8-.41 1.8-.468 3.082C.013 8.332 0 8.736 0 12c0 3.264.013 3.668.072 4.948.058 1.282.24 2.282.468 3.082a7.07 7.07 0 0 0 1.64 2.56 7.07 7.07 0 0 0 2.56 1.64c.8.228 1.8.41 3.082.468C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.072c1.282-.058 2.282-.24 3.082-.468a7.07 7.07 0 0 0 2.56-1.64 7.07 7.07 0 0 0 1.64-2.56c.228-.8.41-1.8.468-3.082.059-1.28.072-1.684.072-4.948s-.013-3.668-.072-4.948c-.058-1.282-.24-2.282-.468-3.082a7.07 7.07 0 0 0-1.64-2.56A7.07 7.07 0 0 0 19.03.54c-.8-.228-1.8-.41-3.082-.468C15.668.013 15.264 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm7.844-10.406a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
               </svg>
-              <span style="font-size: 2.25rem; padding-left: 20px;color:purple">Instagram</span>
+              <span class="zoom-on-hover" style="font-size: 2.25rem; padding-left: 30px; color: purple;">Instagram</span>
+              <style>
+                .zoom-on-hover {
+                  transition: transform 0.3s cubic-bezier(.4,2,.6,1);
+                  display: inline-block;
+                  cursor: pointer;
+                }
+                .zoom-on-hover:hover {
+                  transform: scale(1.18);
+                }
+              </style>
             </a>
             <!-- Profile Image (center) -->
-            <img src="IMG_2408.JPG" alt="Dhyey Patel." class="img-fluid rounded-circle" style="width: 230px; height: 230px; object-fit: cover; border: 6px solid #ffd00063; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22); margin: 0 36px;">
+            <img src="img_2408.jpg" alt="Dhyey Patel smiling, centered between Instagram and YouTube icons, with a soft yellow border and subtle shadow, matching the height of the text below. Background is light and welcoming." class="img-fluid rounded-circle" style="width: 230px; height: 230px; object-fit: cover; border: 6px solid #ffd00063; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22); margin: 0 36px;">
             <!-- YouTube (right) -->
             <a href="https://www.youtube.com/channel/UCknPQ1aaPOTUCuy6wb2ufJQ/" target="_blank" class="social-link d-flex align-items-center text-decoration-none" style="font-weight: 500; font-size: 2.5rem; margin-left: 10px;">
               <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" viewBox="0 0 24 24" aria-label="YouTube" style="margin-right: 2px;"></svg>
@@ -108,46 +118,59 @@
                   .502 6.186C0 8.34 0 12 0 12s0 3.66.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.76 20.5 12 20.5 12 20.5s7.24 0 9.391-
                   .569a2.994 2.994 0 0 0 2.107-2.117C24 15.66 24 12 24 12s0-3.66-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
-              <span style="font-size: 2.25rem; margin-left: -15px; color: #ff0000;">YouTube</span>
+              <span class="zoom-on-hover" style="font-size: 2.25rem; margin: -20px;  color: #ff0000; padding-right: 100px;">YouTube</span>
+              <style>
+                .zoom-on-hover {
+                  transition: transform 0.3s cubic-bezier(.4,2,.6,1);
+                  display: inline-block;
+                  cursor: pointer;
+                }
+                .zoom-on-hover:hover {
+                  transform: scale(1.18);
+                }
+              </style>
+         
             </a>
           </div>
         </div>
         <style>
-          .social-link {
-            color: #222;
-            transition: transform 0.3s cubic-bezier(.4,2,.6,1), color 0.3s, background 0.3s;
-            border-radius: 18px;
-            padding: 6px 18px;
-          }
-          .social-link:hover, .social-link:focus {
-            transform: scale(1.13);
-            color: #FFD700;
-            background: linear-gradient(90deg, #FFD700 0%, #222 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
-            outline: none;
-          }
-          .social-link svg {
-            transition: color 0.3s;
-          }
-          .social-link:hover svg, .social-link:focus svg {
-            color: #FFD700;
-          }
+   
         </style>
       <h1>
         Hey, I'm <span class="highlight-name">Dhyey</span>
       </h1>
-      <p class="lead">Web Developer | Tech Explorer | Creative Soul</p>
+      <p class="lead">
+        <a href="https://github.com/dhyeypatel03/" class="role-link" style="margin-right: 12px;" target="_blank" rel="noopener">Web Developer</a>
+        <span style="margin-right: 12px;">|</span>
+        <a href="https://youtu.be/wXZ2Zcu951M?si=LcnfPbaSRRGXy2S7/" class="role-link" style="margin-right: 12px;" target="_blank" rel="noopener">Tech Explorer</a>
+        <span style="margin-right: 12px;">|</span>
+        <a href="https://youtu.be/5tB2ymAj74A?si=mOrLYC7K21gc8oLe/" class="role-link" target="_blank" rel="noopener">Creative Soul</a>
+      </p>
+      <style>
+        .role-link {
+          transition: transform 0.3s cubic-bezier(.4,2,.6,1), color 0.3s;
+          display: inline-block;
+          color: #333;
+          text-decoration: none;
+          font-weight: 500;
+        }
+        .role-link:hover, .role-link:focus {
+          transform: scale(1.18);
+          color: #816ad3;
+          
+        }
+      </style>
     </div>
   </section>
 
   <!-- About -->
-   <section>
-    <h2>About Me</h2>
-    <p class="highlight-text" id="animatedText">
-      Hey there! I’m an IT engineer with a heart for creating meaningful things — from building smart, impactful tech solutions to capturing life’s adventures through travel. Whether I’m coding a project or crafting a story, my goal is simple: to make it all count and connect with people. Welcome to my journey.
+  <section>
+   <h2 style="text-align: center; color: #000000; padding-top: 0px; font-size: 2.5rem; padding-bottom: 30px;">About Me</h2>
+   <p class="highlight-text" id="animatedText" style="text-align: center; font-size: 1.2rem; color: #333; max-width: 900px; margin: 0 auto; padding-bottom: 20px;">
+      Hey there! I’m an IT engineer with a heart for creating meaningful things — from building smart, 
+      impactful tech solutions to capturing life’s adventures through travel. Whether I’m coding 
+      a project or crafting a story, my goal is simple: to make it all count and connect with people. 
+      Welcome to my journey.
     </p>
   </section>
 
@@ -158,9 +181,63 @@
     para.innerHTML = words.map(word => `<span>${word}</span>`).join(' ');
   </script>
 
-  
+  <!-- Instagram Gallery Section -->
+  <!-- <section class="py-5" id="instagram-gallery" style="background: #fff;">
+    <div class="container">
+      <h2 class="mb-4 text-center" style="font-size:2.25rem; color:#1f2937;">Instagram Highlights</h2>
+      <div id="instaGrid" class="row g-4 justify-content-center">
+       
+        <div class="insta-post"></div>
+          <img src="img/insta1.jpg" alt="Instagram post 1" class="insta-img" loading="lazy"/>
+        </div>
+        <div class="insta-post"></div>
+          <img src="img/insta2.jpg" alt="Instagram post 2" class="insta-img" loading="lazy"/>
+        </div>
+        <div class="insta-post"></div>
+          <img src="img/insta3.jpg" alt="Instagram post 3" class="insta-img" loading="lazy"/>
+        </div>
+        <div class="insta-post"></div>
+          <img src="img/insta4.jpg" alt="Instagram post 4" class="insta-img" loading="lazy"/>
+        </div>
+        <div class="insta-post">
+          <img src="img/insta5.jpg" alt="Instagram post 5" class="insta-img" loading="lazy"/>
+        </div>
+        <div class="insta-post"></div>
+          <img src="img/insta6.jpg" alt="Instagram post 6" class="insta-img" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+    <style>
+      #instaGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 24px;
+      }
+      .insta-post {
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+        background: #f8f9fa;
+        transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+        position: relative;
+      }
+      .insta-post:hover {
+        transform: scale(1.04);
+        box-shadow: 0 8px 28px rgba(0,0,0,0.13);
+      }
+      .insta-img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        display: block;
+      }
+      @media (max-width: 600px) {
+        .insta-img { height: 160px; }
+      }
+    </style> -->
 
-  <!-- Projects -->
+    
+  </section>
   <section class="py-5 bg-light" id="projects">
     <div class="container">
       <h2 class="mb-4">Projects</h2>
